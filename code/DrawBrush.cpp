@@ -1,0 +1,27 @@
+// DrawBrush.cpp: implementation of the CDrawBrush class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "ToDraw.h"
+#include "DrawBrush.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CDrawBrush::CDrawBrush()
+{
+
+}
+
+CDrawBrush::~CDrawBrush()
+{
+
+}

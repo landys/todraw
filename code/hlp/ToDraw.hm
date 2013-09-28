@@ -1,0 +1,68 @@
+ 
+// Commands (ID_* and IDM_*) 
+HID_INDICATOR_CURSOR_POSITION           0x18002
+HID_VIEW_TOOLBOX                        0x18003
+HID_VIEW_COLORBOX                       0x18004
+HID_LINE                                0x18009
+HID_CURVE                               0x1800A
+HID_FILLING                             0x1800B
+HID_BRUSH                               0x1800C
+HID_ELLIPSE                             0x1800D
+HID_RECTANGLE                           0x1800E
+HID_ROUNDRECT                           0x1800F
+HID_POLYGON                             0x18010
+HID_SELECT                              0x18011
+HID_PEN                                 0x18012
+HID_ERASER                              0x18013
+HID_SAMPLING                            0x18014
+HID_BLACK                               0x18021
+HID_WHITE                               0x18022
+HID_DARKGREEN                           0x18023
+HID_BLUE                                0x18024
+HID_LGREEN                              0x18025
+HID_GREEN                               0x18025
+HID_YELLOW                              0x18026
+HID_PINK                                0x18027
+HID_DRAKRED                             0x18028
+HID_GRAY                                0x18029
+HID_PURPLE                              0x1802A
+HID_DARKYELLOW                          0x1802B
+HID_CYAN                                0x1802C
+HID_DARKCYAN                            0x1802D
+HID_DARKBLUE                            0x1802E
+HID_DARKGRAY                            0x1802F
+HID_RED                                 0x18030
+HID_IMAGE_CLEAR                         0x18032
+HID_ONEPIXEL                            0x18033
+HID_TWOPIXEL                            0x18034
+HID_FOURPIXEL                           0x18035
+HID_SIXPIXEL                            0x18036
+HID_EMPTY                               0x18037
+HID_FULL                                0x18038
+HID_PS_SOLID                            0x18039
+HID_PS_DASH                             0x1803A
+HID_PS_DOT                              0x1803B
+HID_PS_DASHDOT                          0x1803C
+HID_PS_DASHDOTDOT                       0x1803D
+HID_                                    0x18041
+HID_VIEW_TOOLSTYLEBOX                   0x18042
+HID_IMAGE_PROPERTY                      0x18043
+HID_COLOR_CUSTOM                        0x18044
+HID_VIEW_PROPPAGE                       0x1804C
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_TODRAWTYPE                         0x20081
+HIDR_TOOLBOX                            0x20084
+HIDR_COLORBOX                           0x20086
+HIDR_CONTEXT_MENU                       0x2009C
+HIDR_TOOLSTYLEBOX                       0x2009F
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_PROPPAGE                           0x2006A
+ 
+// Frame Controls (IDW_*) 
+HIDW_STATUS_BAR                         0x500A6

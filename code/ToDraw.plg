@@ -1,0 +1,111 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ToDraw - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Tony\LOCALS~1\Temp\RSPE5.bat" with contents
+[
+@echo off
+copy "hlp\ToDraw.cnt" .\Release
+]
+Creating command line "C:\DOCUME~1\Tony\LOCALS~1\Temp\RSPE5.bat"
+Creating temporary file "C:\DOCUME~1\Tony\LOCALS~1\Temp\RSPE6.bat" with contents
+[
+@echo off
+start /wait hcw /C /E /M "hlp\ToDraw.hpj"
+if errorlevel 1 goto :Error
+if not exist "hlp\ToDraw.hlp" goto :Error
+copy "hlp\ToDraw.hlp" .\Release
+goto :done
+:Error
+echo hlp\ToDraw.hpj(1) : error:
+type "hlp\ToDraw.log"
+:done
+]
+Creating command line "C:\DOCUME~1\Tony\LOCALS~1\Temp\RSPE6.bat"
+Creating command line "rc.exe /l 0x804 /fo"Release/ToDraw.res" /d "NDEBUG" /d "_AFXDLL" "E:\Tony\Codes\Tonymfc\ToDraw\Code\ToDraw.rc"" 
+Copying contents file...
+        1 file(s) copied.
+Making help file...
+        1 file(s) copied.
+Creating temporary file "C:\DOCUME~1\Tony\LOCALS~1\Temp\RSPE7.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ToDraw.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Tony\Codes\Tonymfc\ToDraw\Code\ChildFrm.cpp"
+"E:\Tony\Codes\Tonymfc\ToDraw\Code\DrawCurve.cpp"
+"E:\Tony\Codes\Tonymfc\ToDraw\Code\DrawEllipse.cpp"
+"E:\Tony\Codes\Tonymfc\ToDraw\Code\DrawFilling.cpp"
+"E:\Tony\Codes\Tonymfc\ToDraw\Code\DrawLine.cpp"
+"E:\Tony\Codes\Tonymfc\ToDraw\Code\DrawObject.cpp"
+"E:\Tony\Codes\Tonymfc\ToDraw\Code\DrawPoly.cpp"
+"E:\Tony\Codes\Tonymfc\ToDraw\Code\DrawRect.cpp"
+"E:\Tony\Codes\Tonymfc\ToDraw\Code\DrawRoundRect.cpp"
+"E:\Tony\Codes\Tonymfc\ToDraw\Code\DrawSelect.cpp"
+"E:\Tony\Codes\Tonymfc\ToDraw\Code\MainFrm.cpp"
+"E:\Tony\Codes\Tonymfc\ToDraw\Code\PropertyDialog.cpp"
+"E:\Tony\Codes\Tonymfc\ToDraw\Code\ToDraw.cpp"
+"E:\Tony\Codes\Tonymfc\ToDraw\Code\ToDrawDoc.cpp"
+"E:\Tony\Codes\Tonymfc\ToDraw\Code\ToDrawView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Tony\LOCALS~1\Temp\RSPE7.tmp" 
+Creating temporary file "C:\DOCUME~1\Tony\LOCALS~1\Temp\RSPE8.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ToDraw.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Tony\Codes\Tonymfc\ToDraw\Code\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Tony\LOCALS~1\Temp\RSPE8.tmp" 
+Creating temporary file "C:\DOCUME~1\Tony\LOCALS~1\Temp\RSPE9.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/ToDraw.pdb" /machine:I386 /out:"Release/ToDraw.exe" 
+.\Release\ChildFrm.obj
+.\Release\DrawCurve.obj
+.\Release\DrawEllipse.obj
+.\Release\DrawFilling.obj
+.\Release\DrawLine.obj
+.\Release\DrawObject.obj
+.\Release\DrawPoly.obj
+.\Release\DrawRect.obj
+.\Release\DrawRoundRect.obj
+.\Release\DrawSelect.obj
+.\Release\MainFrm.obj
+.\Release\PropertyDialog.obj
+.\Release\StdAfx.obj
+.\Release\ToDraw.obj
+.\Release\ToDrawDoc.obj
+.\Release\ToDrawView.obj
+.\Release\ToDraw.res
+]
+Creating command line "link.exe @C:\DOCUME~1\Tony\LOCALS~1\Temp\RSPE9.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+DrawCurve.cpp
+DrawEllipse.cpp
+DrawFilling.cpp
+DrawLine.cpp
+DrawObject.cpp
+DrawPoly.cpp
+DrawRect.cpp
+DrawRoundRect.cpp
+DrawSelect.cpp
+MainFrm.cpp
+PropertyDialog.cpp
+ToDraw.cpp
+ToDrawDoc.cpp
+ToDrawView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ToDraw.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
